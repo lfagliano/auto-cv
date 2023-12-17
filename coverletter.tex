@@ -26,13 +26,13 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{awesome-skyblue}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
 % Colors for text
 % Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
+\definecolor{text}{HTML}{2C2C2C}
 % \definecolor{text}{HTML}{333333}
 % \definecolor{graytext}{HTML}{5D5D5D}
 % \definecolor{lighttext}{HTML}{999999}
@@ -50,17 +50,16 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[circle,noedge,left]{./examples/profile}
-\name{Claud D.}{Park}
-\position{Site Reliability Engineer{\enskip\cdotp\enskip}Software Architect}
-\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+\photo{./resources/profile.png}
+\name{Lucas}{Fagliano}
+\position{Data Officer{\enskip\cdotp\enskip}Data engineering and data solutions}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
+\mobile{(+49) 0152-960412}
+\email{lucasfagliano@gmail.com}
 %\dateofbirth{January 1st, 1970}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+%\homepage{www.posquit0.com}  --- We should make it for displaying flask and django projects
+\github{lfagliano}
+\linkedin{lucasfagliano}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -74,7 +73,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra information}
 
-\quote{``Be the change that you want to see in the world."}
+%\quote{``Be the change that you want to see in the world."}
 
 
 %-------------------------------------------------------------------------------
@@ -83,18 +82,20 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-  {Company Recruitment Team}
-  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+  {ABN AMRO}
+  {}
+  %  {Karperstraat 8, 1075 KZ Amsterdam, Netherlands}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Job Application for Software Engineer}
+\lettertitle{Job Application for ETL Developer at ABN AMRO}
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{Dear Ali Coskun and Marcel Vos,}
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
+%\letterenclosure{}
+%[Attached]{Curriculum Vitae}
 
 
 %-------------------------------------------------------------------------------
@@ -108,8 +109,8 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Cover Letter}
-  {}
+  {Lucas Fagliano~~~·~~~Cover Letter}
+  {\thepage}
 
 % Print the title with above letter information
 \makelettertitle
@@ -119,17 +120,18 @@
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-\lettersection{About Me}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+I am writing to express my interest in the ETL Developer position at ABN AMRO, as described in the job posting. With a comprehensive background in Data Engineering and DevOps, I am excited about the opportunity to contribute to your team, leveraging my expertise in creating and monitoring ETL pipelines and my readiness to expand my skills in Azure cloud infrastructure.
 
-\lettersection{Why Google?}
-Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+Currently, as a Data Officer at the Armed Conflict Location and Events Data Project (ACLED), I have developed a profound skill set in cloud infrastructure and data pipeline management, predominantly in environments other than Azure. Although I have not directly worked with Azure, my experience with other cloud providers has provided me with a strong foundation in cloud computing principles and practices. I am highly enthusiastic about the prospect of broadening my expertise by diving into Azure technologies and am confident in my ability to rapidly assimilate and excel in this new environment.
 
-\lettersection{Why Me?}
-Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+My experience in YAML has been largely through the implementation of Github Actions. This experience has honed my skills in CI/CD tooling, a key component of the role at ABN AMRO. I am adept at using these skills to enhance operational efficiencies and ensure the seamless execution of development pipelines.
 
+One of my key strengths is the unique combination of DevOps and Data Engineering skills. This dual capability allows me not only to develop robust ETL pipelines but also to effectively monitor and optimize them. In my current role, I have been instrumental in deploying and managing various data engineering tools and ensuring their optimal performance. This experience has provided me with a holistic understanding of the data life cycle, from creation and extraction to transformation and loading, making me well-equipped to handle the responsibilities of an ETL Developer at ABN AMRO.
+
+I am particularly excited about the opportunity to work within an agile DevOps team at ABN AMRO. I am eager to bring my collaborative spirit, problem-solving skills, and technical expertise to your esteemed team. I look forward to the prospect of contributing to the reporting processes for DNB, ECB, and tax authorities, and being part of a team that thrives on innovation and continuous improvement.
+
+Thank you for considering my application. I am enthusiastic about the opportunity to bring my blend of skills and eagerness to learn to ABN AMRO and contribute to your team’s success. I am looking forward to the possibility of discussing my application further.
 \end{cvletter}
-
 
 %-------------------------------------------------------------------------------
 % Print the signature and enclosures with above letter information
